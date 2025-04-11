@@ -19,7 +19,7 @@ Notre solution vise à répondre aux besoins suivants :
 
 **Streamlit (optionnel)** : Interface simple et interactive  (Possibilité)
 
-# Fonctionnement du Système
+#Fonctionnement du Système
 1. **Capture vidéo** en temps réel via une caméra montée sur la canne.
 2. **Détection d’obstacles** à l’aide d’un modèle de vision par ordinateur (YOLO).
 3. **Identification** de l’objet (type, position : devant/gauche/droite).
@@ -30,10 +30,15 @@ Notre solution vise à répondre aux besoins suivants :
 | Objet | Niveau de Priorité | Alerte Vocale |
 
 | Personne | Haute | *"Person approaching!"* |
+
 | Porte | Haute | *"Door close ahead!"* |
+
 | Escaliers | Haute | *"Stairs warning!"* |
+
 | Voiture / Chien | Haute | *"Vehicle approaching!" / "Dog close by!"* | 
+
 | Chaise / Lit / Tasse | Moyenne | *"Chair ahead!" / "Cup to your left!"* |
+
 | Téléphone | faible | *"Mobile phone ahead!"* |
 
  #Réalisé par 
