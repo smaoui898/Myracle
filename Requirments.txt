@@ -1,0 +1,12 @@
+opencv
+time
+ultralytics import YOLO
+numpy
+gTTS
+playsound
+os
+threading
+queue
+tempfile
+sounddevice  
+soundfile   
