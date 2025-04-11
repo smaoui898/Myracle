@@ -11,7 +11,7 @@ Notre solution vise à répondre aux besoins suivants :
 
 #Technologies et Outils Utilisés
 
-**OpenCV** :Capture et traitement d’image 
+**OpenCV** :Capture et traitement d’image\n
 **YOLOv8** : Détection en temps réel des objets/obstacles 
 **gTTS + sounddevice** : Synthèse et lecture vocale des alertes 
 **Streamlit (optionnel)** : Interface simple et interactive  (Possibilité)
