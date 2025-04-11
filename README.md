@@ -26,7 +26,8 @@ Notre solution vise à répondre aux besoins suivants :
 4. **Génération d’une alerte vocale** avec gTTS (ex. : *Person ahead !"*).
 5. (à étudier) **Interaction vocale possible** : ex. *"Quelle est la distance de l’obstacle ?"*
 
-#Exemples d’Objets Détectés
+#Exemples d’Objets Détectés :
+
 | Objet | Niveau de Priorité | Alerte Vocale |
 
 | Personne | Haute | *"Person approaching!"* |
