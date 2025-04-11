@@ -11,13 +11,11 @@ Notre solution vise à répondre aux besoins suivants :
 
 #Technologies et Outils Utilisés
 
-| Outil/Librairie | Rôle |
-|----------------|------|
-| **OpenCV** | Capture et traitement d’image |
-| **YOLOv8 | Détection en temps réel des objets/obstacles |
-| **gTTS + sounddevice** | Synthèse et lecture vocale des alertes |
-| **Streamlit (optionnel)** | Interface simple et interactive | (Possibilité)
-|----------------|------|
+**OpenCV** :Capture et traitement d’image 
+**YOLOv8** : Détection en temps réel des objets/obstacles 
+**gTTS + sounddevice** : Synthèse et lecture vocale des alertes 
+**Streamlit (optionnel)** : Interface simple et interactive  (Possibilité)
+
 # Fonctionnement du Système
 1. **Capture vidéo** en temps réel via une caméra montée sur la canne.
 2. **Détection d’obstacles** à l’aide d’un modèle de vision par ordinateur (YOLO).
@@ -27,7 +25,7 @@ Notre solution vise à répondre aux besoins suivants :
 
 #Exemples d’Objets Détectés
 | Objet | Niveau de Priorité | Alerte Vocale |
-|-------|--------------------|----------------|
+
 | Personne | Haute | *"Person approaching!"* |
 | Porte | Haute | *"Door close ahead!"* |
 | Escaliers | Haute | *"Stairs warning!"* |
